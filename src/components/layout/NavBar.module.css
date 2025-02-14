@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 4.5rem;
+    background-color: #754F44;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navlinks a{
+    text-decoration: none;
+    font-size: .9rem;
+    color: #Fff;
+    transition: all 0.3s;
+}
+
+.navlinks a:hover{
+    color: #EC9700;
+}
+
+.logo img{
+    width: 100px;
+}

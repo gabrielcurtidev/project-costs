@@ -1,0 +1,17 @@
+.container_NewProject{
+    width: 450px;
+    margin: 0 auto;
+    padding: 3rem;
+
+}
+
+.container_NewProject h1{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 4px;
+}
+
+.container_NewProject p{
+    font-weight: light;
+    color: #7b7b7b;
+}
