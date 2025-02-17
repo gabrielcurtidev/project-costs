@@ -1,13 +1,23 @@
+import Input from "../input/input";
+
 function ProjectForm(){
     return (
         <form>
-            <div>
-                <input type="text" placeholder="Insira o nome de seu projeto" />
-            </div>
+            <Input
+            type='text'
+            name='email'
+            placeholder='Insira o nome do projeto'
+            text='Nome do projeto:'
+            />
 
-            <div>
-                <input type="number" placeholder="Insira o valor de seu orçamento"/>
-            </div>
+            <Input
+            type='number'
+            name='number'
+            placeholder='Insira o valor de seu orçamento'
+            text='Valor do orçamento:'
+            />
+
+            
 
             <div>
                 <select name="category_id">
