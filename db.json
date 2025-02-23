@@ -1,14 +1,21 @@
 {
-    {
-    "caregories": "primeiro",
-    "id": 1
-    },
-    {
-    "caregories": "segundo",
-    "id": 2
-    },
-    {
-    "caregories": "terceiro",
-    "id": 3
-    }
+    "projects": [],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Infra"            
+        },
+        {
+            "id": 2,
+            "name": "Desenvolvimento"            
+        },
+        {
+            "id": 3,
+            "name": "Design"            
+        },
+        {
+            "id":4,
+            "name": "Planejamentos"            
+        }
+    ]
 }
