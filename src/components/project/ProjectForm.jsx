@@ -4,9 +4,10 @@ import Input from "../input/input";
 import Select from "../input/select";
 import BtnSubmit from "../input/BtnSubmit";
 
-function ProjectForm(){
+function ProjectForm({handleSubmit, projectData}){
 
     const [categories, setCategories] = useState([])
+    const [project, setProject] = useState(projectData || {})
 
     useEffect(() => {
         fetch("http://localhost:5000/categories", {
@@ -22,10 +23,13 @@ function ProjectForm(){
         .catch(err => console.log(err))
     }, [])
     
-    
+    const submit = (e) =>{
+        e.preventDefault()
+        handleSubmit(project)
+    }
 
     return (
-        <form>
+        <form onSubmit={submit}>
             <Input
             type='text'
             name='email'
